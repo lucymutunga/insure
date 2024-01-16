@@ -1,16 +1,11 @@
 import React from "react";
-import logo from "../images/logo.svg";
 
 const Nav = () => {
   return (
-    <Header>
-      <h1>Testing</h1>
-      <Nav>
-        <div>
-          <img src={logo} alt="logo"></img>
-        </div>
-      </Nav>
-    </Header>
+    <div ClassName="bg-red-300">
+      Nav
+      <h1 className="bg-red-500">Testing</h1>
+    </div>
   );
 };
 
